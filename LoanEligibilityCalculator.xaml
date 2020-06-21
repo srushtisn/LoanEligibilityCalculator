@@ -8,7 +8,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>666,2447</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>641,2485</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>LoanEligibilityCalculator_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="22">
@@ -63,7 +63,7 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="LoanEligibilityCalculator" sap:VirtualizedContainerService.HintSize="636,2282" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="LoanEligibilityCalculator" sap:VirtualizedContainerService.HintSize="636,2280" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="GrossSalary" />
       <Variable x:TypeArguments="x:String" Name="Tenure" />
@@ -115,7 +115,7 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <Sequence DisplayName="Loan Eligibility Sequence" sap:VirtualizedContainerService.HintSize="594,1959" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="Loan Eligibility Sequence" sap:VirtualizedContainerService.HintSize="594,1957" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Default="https://www.hdfc.com/home-loan-eligibility-calculator" Name="BankURL" />
       </Sequence.Variables>
@@ -125,19 +125,19 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard CloseMode="{x:Null}" OpenMode="{x:Null}" DisplayName="Use Browser Chrome: Home Loan Eligibility Calculator: Housing Loan Eligibility - HDFC" sap:VirtualizedContainerService.HintSize="552,1867" sap2010:WorkflowViewState.IdRef="NApplicationCard_1">
+      <uix:NApplicationCard CloseMode="{x:Null}" OpenMode="{x:Null}" DisplayName="Use Browser Chrome: Home Loan Eligibility Calculator: Housing Loan Eligibility - HDFC" sap:VirtualizedContainerService.HintSize="552,1865" sap2010:WorkflowViewState.IdRef="NApplicationCard_1">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence sap:VirtualizedContainerService.HintSize="518,1651" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence sap:VirtualizedContainerService.HintSize="518,1649" sap2010:WorkflowViewState.IdRef="Sequence_6">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,1557" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,1556" sap2010:WorkflowViewState.IdRef="Sequence_5">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
